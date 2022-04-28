@@ -1,0 +1,15 @@
+import os
+
+print ("\nCrear un archivo")
+print ("================")
+print("=================")
+
+archivo = 'lugares.txt'
+NOMBRE_ARCHIVO = open(NOMBRE_ARCHIVO, 'w') # abre el archivo datos.txt
+lugares.write('Ventura Mall \t4to anillo \tAire acondicionado \n')
+lugares.write('Plaza 24 de septiembre \tCentro \tAire libre \n')
+lugares.write('Las Brisas \t4to anillo \tAire acondicionado \n')
+lugares.write('Cine center \t2do anillo \tAire acondicionado \n')
+lugares.write('Makro Parque \t4to anillo \tAire acondicionado \n')
+lugares.close()
+
